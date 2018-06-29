@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "out",
+
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "./types/*"
+      ]
+    }
+  }
+}

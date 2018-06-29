@@ -1,0 +1,19 @@
+{
+  "name": "tsconfig-paths-51",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "node --require ts-node/register --require tsconfig-paths/register src/javascript.js",
+    "ts-node": "ts-node src/typescript.ts",
+    "tsc": "tsc && node out/typescript.js"
+  },
+  "author": "Jani <ljani@users.noreply.github.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-nested": "^3.0.0",
+    "ts-node": "^7.0.0",
+    "tsconfig-paths": "^3.4.1",
+    "typescript": "^2.9.2"
+  }
+}
